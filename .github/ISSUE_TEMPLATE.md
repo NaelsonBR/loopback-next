@@ -1,37 +1,27 @@
 <!--
-Questions:
-  https://groups.google.com/forum/#!forum/loopbackjs
-  https://gitter.im/strongloop/loopback
-Immediate support:
-  https://strongloop.com/api-connect-faqs/
-  https://strongloop.com/node-js/subscription-plans/
+HELP US HELP YOU BY PROVIDING AS MUCH OF THE FOLLOWING INFORMATION AS POSSIBLE AND
+AVOID DUPLICATES BY SEARCHING BEFORE CREATING A NEW ISSUE.
 -->
 
-# Description/Steps to reproduce
+## I'm submitting a ...
+<!-- Check one of the following options with a "x" -->
+<pre><code>
+[ ] Regression (a behavior that used to work and stopped working in a new release)
+[ ] Bug report
+[ ] Feature request <!-- Include a problem statement, use case scenario, example, code samples, etc. -->
+[ ] Documentation issue or request
+[ ] Support / Question
+[ ] Feedback / Comment / Thanks / Other
+</code></pre>
 
+## Current Behaviour
+<!-- Include link to a sandbox application for reproduction is available -->
+
+## Expected Behaviour
+
+## Additional Information
 <!--
-If feature: A description of the feature
-If bug: Steps to reproduce
--->
-
-# Link to reproduction sandbox
-
-<!--
-Link to an app sandbox for reproduction
-
-Note: Failure to provide a sandbox application for reproduction purposes will result in the issue being closed.
--->
-
-# Expected result
-
-<!--
-Also include actual results if bug
--->
-
-# Additional information
-
-<!--
-Copy+paste the output of these two commands:
+If applicable, Copy + Paste the output of these two commands:
   node -e 'console.log(process.platform, process.arch, process.versions.node)'
   npm ls --prod --depth 0 | grep loopback
 -->
