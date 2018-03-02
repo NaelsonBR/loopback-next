@@ -1,6 +1,12 @@
 <!--
-HELP US HELP YOU BY PROVIDING AS MUCH OF THE FOLLOWING INFORMATION AS POSSIBLE AND
-AVOID DUPLICATES BY SEARCHING BEFORE CREATING A NEW ISSUE.
+HELP US HELP YOU BY
+- Doing a quick search to avoid duplicate issues
+- Providing as much information as possible (versions, use case scenarios for features, etc.)
+
+If you have a question then please consider using a more suitable venue:
+ - https://stackoverflow.com/questions/tagged/loopbackjs
+ - https://groups.google.com/forum/#!forum/loopbackjs
+ - https://gitter.im/strongloop/loopback
 -->
 
 ## I'm submitting a ...
@@ -10,12 +16,11 @@ AVOID DUPLICATES BY SEARCHING BEFORE CREATING A NEW ISSUE.
 [ ] Bug report
 [ ] Feature request <!-- Include a problem statement, use case scenario, example, code samples, etc. -->
 [ ] Documentation issue or request
-[ ] Support / Question
-[ ] Feedback / Comment / Thanks / Other
+[ ] Other (Support / Question / Feedback / Comment / Thanks)
 </code></pre>
 
 ## Current Behaviour
-<!-- Include link to a sandbox application for reproduction is available -->
+<!-- Help us help you! Include a link to a sandbox application which we can use to reproduce the problem. -->
 
 ## Expected Behaviour
 
