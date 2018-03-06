@@ -27,19 +27,39 @@ export type HttpEndpoint = {
 };
 
 /**
- * This interface wraps http request/response and other information
+ * This interface wraps http request/response and other information. It's
+ * designed to be used by `http-server-*` modules to provide the concrete
+ * types for `REQ` and `RES`.
  */
 export interface BaseHttpContext<REQ, RES> {
+  /**
+   * The Node.js core http request
+   */
   req: http.IncomingMessage;
+  /**
+   * The Node.js core http response
+   */
   res: http.ServerResponse;
+  /**
+   * Framework specific http request. For example `Express` has its own
+   * `Request` that extends from `http.IncomingMessage`
+   */
   request: REQ;
+  /**
+   * Framework specific http response. For example `Express` has its own
+   * `Response` that extends from `http.ServerResponse`
+   */
   response: RES;
+  /**
+   * Next handler
+   */
   // tslint:disable-next-line:no-any
   next?: (() => Promise<any>) | ((err: any) => void);
 }
 
 /**
- * Http request/response handler
+ * Http request/response handler. It's designed to be used by `http-server-*`
+ * modules to provide the concrete types for `REQ` and `RES`.
  */
 export type BaseHandleHttp<REQ, RES> = (
   httpCtx: BaseHttpContext<REQ, RES>,
